@@ -3,6 +3,6 @@ const config = require('./app/config');
 
 const PORT = config.app.port;
 app.listen(PORT, () => {
-    console.log('Server running at Port: PORT.' PORT)
+    console.log('Server running at Port: PORT.' + PORT);
 });
 
