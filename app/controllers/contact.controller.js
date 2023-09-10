@@ -9,7 +9,7 @@ exports.findAll = (req, res) => {
 //exports module dùng để dùng ở bất cứ đâu khi được gọi tên
 
 exports.findOne = (req, res) => {
-    res.send({massgae: 'FindOne handle.'});
+    res.send({massgae: 'Find One handle.'});
 };
 
 exports.update = (req, res) => {

@@ -1,8 +1,10 @@
 const express = require('express');
 
-const contacts = require('../cotrollers/contact.controller');
+const contacts = require('../controllers/contact.controller');
 
 const router = express.Router();
+
+const app = express();
 
 router.route("/")
     .get(contacts.findAll) //Dùng các mudole đã được định nghĩa ở file controllers
